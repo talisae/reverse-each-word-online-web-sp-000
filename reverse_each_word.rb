@@ -5,13 +5,3 @@ def reverse_each_word(string)
     word.reverse << new_array
   end
 end
-
-str = "a,b,c"
- => "a,b,c" 
-
-array = str.split(/,/)
- => ["a", "b", "c"] 
-
- toppings.collect do |topping|
-    puts "I love #{topping} on my burgers!"
-  end
